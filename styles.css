@@ -1,29 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #181818; /* Fondo oscuro similar al de Spotify */
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #181818, #3cbd69);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
 }
 
-.music-container {
+.container {
     text-align: center;
-    background-color: #181818; /* Fondo del contenedor igual al color de la lista */
-    border: 2px solid #1db954; /* Borde verde similar al color principal de Spotify */
-    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    color: #ffffff; /* Texto en blanco para mejor contraste */
-    font-size: 24px;
     margin-bottom: 20px;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
 }
 
 
